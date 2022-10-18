@@ -23,8 +23,8 @@
 				<span class="space"/><span class="comments" id="today"></span><br />
 				<span class="space"/><span class="comments">* So I created a page to celebrate this extraordinary day.</span><br />
 				<span class="space"/><span class="comments">*/</span><br />
-				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Ilma Dinar Latiffa"</span>);<br />
-				<span class="comments">// Aug 23th, when the bell rang, your age increased </span><br />
+				Girl u = <span class="keyword">new</span> Girl(<span class="string">"Tyas Agustina"</span>);<br />
+				<span class="comments">// Oct 18th, when the bell rang, your age increased </span><br />
 				Date currentTime = <span class="keyword">new</span> Date(); <br />
 				SimpleDateFormat formatter = <span class="keyword">new</span> SimpleDateFormat(<span class="string">"yyyy-MM-dd HH:mm:ss"</span>);<br />
 				String dateString = formatter.format(currentTime);<br />
@@ -70,7 +70,7 @@
 		var offsetX = $("#loveHeart").width() / 2;
 		var offsetY = $("#loveHeart").height() / 2 - 55;
 		var together = new Date();
-		together.setFullYear(1997,8, 23);
+		together.setFullYear(1999, 10, 18);
 		together.setHours(8);
 		together.setMinutes(0);
 		together.setSeconds(0);
@@ -83,9 +83,9 @@
 		document.getElementById("birth").innerHTML = '"' + yyyy + '-08-23 00:00:00"';
 		var today = "";
 		if ((dd+mm) == '2308') {
-			today = '* Today, the 23th day of August, is your birthday.';
+			today = '* Today, the 18th day of October, is your birthday.';
 		} else {
-			today = '* 23th day of August, is your birthday.';
+			today = '* 18th day of October, is your birthday.';
 		}
 		document.getElementById("today").innerHTML = today;
 		
